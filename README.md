@@ -1,4 +1,4 @@
-# MERN_jwt_-Authentication
+# MERN_jwt_Authentication
 This is a starter app for a MERN stack application with authentication. This is for a SPA (Single Page Application) workflow that uses the Vite Build tool. This authentication workflow is based off of my MERN Stack From Scratch 
 
 
@@ -19,24 +19,24 @@ Create a PayPal account and obtain your Client ID - PayPal Developer
 Env Variables
 Rename the .env.example file to .env and add the following
 
-NODE_ENV = development
-PORT = ****
-MONGO_URL = your mongodb url
-JWT_SECRET = 'use yours'
-Change the JWT_SECRET to what you want
+ - NODE_ENV = development
+ - PORT = ****
+ - MONGO_URL = your mongodb url
+ - JWT_SECRET = 'use yours'
+ - Change the JWT_SECRET to what you want
 
 Install Dependencies (frontend & backend)
-npm install
-cd frontend
-npm install
-Run
+ * npm install
+ * cd frontend
+ * npm install
+ * Run
 
 # Run frontend (:3000) & backend (:8080)
 npm run dev
 
 # Run backend only
-npm run server
-Build & Deploy
+ * npm run server
+ * Build & Deploy
 # Create frontend prod build
-cd frontend
-npm run build
+ * cd frontend
+ * npm run build
